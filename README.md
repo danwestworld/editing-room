@@ -16,44 +16,33 @@ But some days you'll fluff a line, um your way through the intro, or want a Shor
 ## What you need
 
 - A Mac or a Windows computer. (Your phone films, the laptop edits.)
-- A paid Claude plan (Pro or higher, the free plan doesn't include Claude Code). That's the only cost.
+- A paid Claude plan (Pro or higher, the free plan doesn't include the Code side of the app). That's the only cost.
 - About 2 GB of free space and 15 minutes, once.
+
+You won't touch a Terminal or a line of code. Setup is a few clicks inside the Claude app.
 
 ## Setup (do this once)
 
-**1. Get Claude.**
-Open the Terminal. On a Mac: press Cmd + Space, type `Terminal`, hit Enter. On Windows: press the Start button, type `PowerShell`, hit Enter. (Windows only: install [Git for Windows](https://git-scm.com/downloads/win) first, just click Next all the way through.)
-
-Copy this line, paste it into the window, hit Enter:
-
-Mac:
-```
-curl -fsSL https://claude.ai/install.sh | bash
-```
-Windows:
-```
-irm https://claude.ai/install.ps1 | iex
-```
-
-Close the window and open a new one when it finishes.
+**1. Get the Claude app.**
+Download it from [claude.com/download](https://claude.com/download), install it like any other app and log in. Already have it? Update it and skip ahead.
 
 **2. Add The Editing Room.**
-Paste this one line, hit Enter (same line on Mac and Windows):
+In the app's left sidebar, click **Customize**, then **Plugins**. Top right, click **Add**, then **Add marketplace**, and paste this in:
 
 ```
-claude plugin marketplace add danwestworld/editing-room; claude plugin install editing-room@dan-west
+danwestworld/editing-room
 ```
 
-You should see two green ticks. Now type `claude` and hit Enter. First time, it asks you to log in with your Claude account. Do that.
+Editing Room shows up in the list. Click **Add to this computer**.
 
 **3. Let it set itself up.**
-Inside Claude (the window from step 2), type:
+Switch to the Code side of the app (the `</>` button, top left) and start a new session. If it asks for a folder, pick your Desktop. Then type this in the message box and send it:
 
 ```
 /editing-room:setup
 ```
 
-Claude will ask to install a small free tool called uv and download a speech model (around 500 MB). When it asks permission, pick Yes and press Enter. Make a coffee. When every line says OK, you're done. You never do this again.
+Claude will ask to install a small free tool called uv and download a speech model (around 500 MB). Each time it asks permission, click Allow. Make a coffee. When every line says OK, you're done. You never do this again.
 
 ## Using it
 
