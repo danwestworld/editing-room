@@ -1,0 +1,16 @@
+{
+  "name": "dan-west",
+  "owner": {
+    "name": "Dan West"
+  },
+  "metadata": {
+    "description": "Dan West's free tools for creators."
+  },
+  "plugins": [
+    {
+      "name": "editing-room",
+      "source": "./plugins/editing-room",
+      "description": "The Editing Room: cut your pauses and ums, add captions, get titles and thumbnails, clip Shorts and write your upload copy. All on your own computer."
+    }
+  ]
+}

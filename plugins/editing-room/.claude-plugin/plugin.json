@@ -1,0 +1,7 @@
+{
+  "name": "editing-room",
+  "version": "1.0.0",
+  "description": "Cut your pauses and ums, add captions, get titles and thumbnails, clip Shorts and write your upload copy. Runs on your own computer, no extra subscriptions.",
+  "author": { "name": "Dan West" },
+  "keywords": ["youtube", "video", "editing", "captions", "shorts", "thumbnails"]
+}
